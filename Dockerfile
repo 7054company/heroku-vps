@@ -2,7 +2,7 @@ FROM debian:stretch
 
 # Install git, supervisor, VNC, & X11 packages
 RUN set -ex; \
-    apt-get update; \
+    apt-get install bash; \
     apt-get install -y \
       bash \
       fluxbox \
